@@ -13,6 +13,10 @@
 		5426FC7123C68B3800EB6BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5426FC6F23C68B3800EB6BDF /* Main.storyboard */; };
 		5426FC7323C68B4000EB6BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5426FC7223C68B4000EB6BDF /* Assets.xcassets */; };
 		5426FC7623C68B4000EB6BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5426FC7423C68B4000EB6BDF /* LaunchScreen.storyboard */; };
+		5426FC7E23C6969600EB6BDF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5426FC7D23C6969600EB6BDF /* RegisterViewController.swift */; };
+		5426FC8023C69A8300EB6BDF /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5426FC7F23C69A8300EB6BDF /* loginViewController.swift */; };
+		5426FC8223C6A00000EB6BDF /* listaContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5426FC8123C6A00000EB6BDF /* listaContaViewController.swift */; };
+		5426FC8423C6AEC800EB6BDF /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5426FC8323C6AEC800EB6BDF /* Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5426FC7223C68B4000EB6BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5426FC7523C68B4000EB6BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5426FC7723C68B4000EB6BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5426FC7D23C6969600EB6BDF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5426FC7F23C69A8300EB6BDF /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		5426FC8123C6A00000EB6BDF /* listaContaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listaContaViewController.swift; sourceTree = "<group>"; };
+		5426FC8323C6AEC800EB6BDF /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		5426FC6823C68B3800EB6BDF /* CadastroConta */ = {
 			isa = PBXGroup;
 			children = (
+				5426FC8323C6AEC800EB6BDF /* Protocol.swift */,
 				5426FC6923C68B3800EB6BDF /* AppDelegate.swift */,
 				5426FC6B23C68B3800EB6BDF /* SceneDelegate.swift */,
+				5426FC7D23C6969600EB6BDF /* RegisterViewController.swift */,
 				5426FC6D23C68B3800EB6BDF /* ViewController.swift */,
+				5426FC7F23C69A8300EB6BDF /* loginViewController.swift */,
+				5426FC8123C6A00000EB6BDF /* listaContaViewController.swift */,
 				5426FC6F23C68B3800EB6BDF /* Main.storyboard */,
 				5426FC7223C68B4000EB6BDF /* Assets.xcassets */,
 				5426FC7423C68B4000EB6BDF /* LaunchScreen.storyboard */,
@@ -141,6 +153,10 @@
 				5426FC6E23C68B3800EB6BDF /* ViewController.swift in Sources */,
 				5426FC6A23C68B3800EB6BDF /* AppDelegate.swift in Sources */,
 				5426FC6C23C68B3800EB6BDF /* SceneDelegate.swift in Sources */,
+				5426FC8423C6AEC800EB6BDF /* Protocol.swift in Sources */,
+				5426FC7E23C6969600EB6BDF /* RegisterViewController.swift in Sources */,
+				5426FC8223C6A00000EB6BDF /* listaContaViewController.swift in Sources */,
+				5426FC8023C69A8300EB6BDF /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
